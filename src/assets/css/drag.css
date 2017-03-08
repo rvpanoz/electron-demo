@@ -1,0 +1,59 @@
+.holder {
+	float:left;
+  	width:300px;
+  	zoom:0.8;
+}
+.item {
+	padding:3px;
+  	border:1px dashed #999;
+  	overflow:auto;
+
+}
+
+.droppedSelected {
+  	border:1px solid #22CC22;
+}
+
+.hanger {
+  	background-color:#22CC22;
+  	border:1px solid #22CC22;
+    position:relative;
+  	padding:2px;
+  	z-index:7000;
+  	margin-left:2%;
+  	float:left;
+}
+
+.special {
+	background-color:#efefef;
+  	height:400px;
+  	float:left;
+  	width:400px;
+  	margin-left:10px;
+}
+
+
+.special div {
+	*background-color:#f9f9f9;
+}
+
+.special [class*="span"] {
+	background-color:#999;
+    opacity:.6;
+  	min-height:30px;
+}
+
+.special .row, .special .row-fluid {
+    border:1px dashed #444;
+  	min-height:30px;
+}
+
+.special .container {
+	height:100%;
+    border:1px dotted #ccc;
+}
+
+.target {
+  	background-color:#33ff44 !important;
+	opacity:.4;
+}
